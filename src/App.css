@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.st0{fill:#2B9348;}
+	.st1{fill:#55A630;}
+	.st2{fill:#F4A261;}
+	.st3{fill:#AF7045;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#E76F51;}
+	.st6{fill:#EA6147;}
+	.st7{opacity:0.1;}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Left-leaf {
+    animation: Left-leaf-rotate infinite 2s linear;
+  }
+  .Right-leaf {
+    animation: Right-leaf-rotate infinite 2s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes Left-leaf-rotate {
+  0% {
+    transform: rotate(-1deg);
+    transform-origin: bottom
+  }
+  50% {
+    transform: rotate(1deg);
+    transform-origin: bottom
+  }
+  100% {
+    transform: rotate(-1deg);
+    transform-origin: bottom
+  }
+}
+
+@keyframes Right-leaf-rotate {
+  0% {
+    transform: rotate(1deg);
+    transform-origin: bottom
+  }
+  50% {
+    transform: rotate(-1deg);
+    transform-origin: bottom
+  }
+  100% {
+    transform: rotate(1deg);
+    transform-origin: bottom
+  }
+}
