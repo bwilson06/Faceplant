@@ -19,6 +19,17 @@
   color: white !important;
 }
 
+.fas-link:hover {
+  cursor: pointer;
+}
+.yo {
+  background-color: #E06C75 !important;
+}
+
+p{
+  margin-bottom: 0px !important;
+}
+
 .future-weather {
   display: flex;
   margin: 0 auto;
@@ -34,6 +45,23 @@
   transform: translateY(48%)
 }
 
+.st0-2{fill:#2B9348;}
+	.st1-2{fill:#55A630;}
+	.st2-2{fill:#F4A261;}
+	.st3-2{fill:#AF7045;}
+	.st4-2{opacity:0.2;fill:#DB0B0B;}
+	.st5-2{fill:#FFFFFF;}
+	.st6-2{fill:#B77979;}
+	.st7-2{opacity:0.1;}
+
+
+.st0-1{fill:#2B9348;}
+	.st1-1{fill:#55A630;}
+	.st2-1{fill:#F4A261;}
+	.st3-1{fill:#AF7045;}
+	.st4-1{fill:#FFFFFF;}
+	.st5-1{fill:#AD7574;}
+	.st6-1{opacity:0.1;}
 
 
 .st0{fill:#2B9348;}
