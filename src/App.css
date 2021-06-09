@@ -6,6 +6,35 @@
   height: 40vmin;
   pointer-events: none;
 }
+.progress-bar {
+  background-color: #00cc66 !important;
+}
+.btn-outline-primary {
+  color: #61AFEF !important;
+  border-color: #61AFEF !important;
+  font-family: 'Poppins, Sans serif !important'
+}
+.btn-outline-primary:hover {
+  background-color: #61AFEF !important;
+  color: white !important;
+}
+
+.future-weather {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  height: 10vh;
+  justify-content: space-between;
+  color: white;
+}
+
+.weather-values {
+  color: white;
+  top: 50%;
+  transform: translateY(48%)
+}
+
+
 
 .st0{fill:#2B9348;}
 	.st1{fill:#55A630;}
