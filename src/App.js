@@ -1,19 +1,14 @@
-import logo from './logo.svg';
-import Progress from './components/Progress'
-import Logo from './components/Logo'
 import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Splash from './pages/Splash'
+import Home from './pages/Home'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <Logo />
-        <h1 style={{fontFamily: "Poppins", letterSpacing: "6px", padding: "2px"}}>Faceplant</h1>
-        <div style={{width: "40%", padding: "10px"}}>
-        <Progress />
-        </div>
-      </header>
-    </div>
+    <Router>
+        <Route exact path="/" component={Splash} />
+        <Route path="/home" component={Home} />
+    </Router>
   );
 }
 
